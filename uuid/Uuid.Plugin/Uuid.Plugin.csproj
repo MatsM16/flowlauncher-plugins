@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net9.0-windows</TargetFramework>
-    <AssemblyName>PIA.Plugin</AssemblyName>
-    <PackageId>PIA.Plugin</PackageId>
+    <AssemblyName>Uuid.Plugin</AssemblyName>
+    <PackageId>Uuid.Plugin</PackageId>
     <Authors>MatsM16</Authors>
     <PackageProjectUrl>https://github.com/MatsM16/flowlauncher-plugins</PackageProjectUrl>
     <RepositoryUrl>https://github.com/MatsM16/flowlauncher-plugins</RepositoryUrl>

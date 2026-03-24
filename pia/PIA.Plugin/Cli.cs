@@ -2,7 +2,7 @@ using System;
 using System.Diagnostics;
 using System.Threading.Tasks;
 
-namespace Flow.Launcher.Plugin.PIA;
+namespace PIA.Plugin;
 
 /// <summary>
 /// Wraps a CLI tool.

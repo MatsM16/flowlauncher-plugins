@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Flow.Launcher.Plugin.PIA;
+namespace PIA.Plugin;
 
 /// <summary>
 /// Control PIA (Private Internet Access) VPN client via its CLI tool (piactl.exe).

@@ -1,0 +1,12 @@
+{
+    "ID": "3277474FA5B544E68DB67887233082D0",
+    "ActionKeyword": "uuid",
+    "Name": "UUID",
+    "Description": "Generate or format UUIDs.",
+    "Author": "MatsM16",
+    "Version": "0.0.11",
+    "Language": "csharp",
+    "Website": "https://github.com/MatsM16/flowlauncher-plugins/tree/main/uuid",
+    "IcoPath": "Images/uuid.png",
+    "ExecuteFileName": "UUID.Plugin.dll"
+}

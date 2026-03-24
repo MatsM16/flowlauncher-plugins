@@ -8,3 +8,4 @@ function New-Plugin {
 }
 
 New-Plugin -Name "PIA"
+New-Plugin -Name "Uuid"

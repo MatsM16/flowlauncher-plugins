@@ -2,4 +2,7 @@
   <Folder Name="/pia/">
     <Project Path="pia/PIA.Plugin/PIA.Plugin.csproj" />
   </Folder>
+  <Folder Name="/uuid/">
+    <Project Path="uuid/Uuid.Plugin/Uuid.Plugin.csproj" />
+  </Folder>
 </Solution>

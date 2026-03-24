@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using PIA.Plugin;
 
 namespace Flow.Launcher.Plugin.PIA;
 
@@ -78,23 +79,19 @@ public class PiaPlugin : IAsyncPlugin
         if (connected) result.AsyncAction = async _ =>
         {
             await _pia.DisconnectAsync();
-            connected = false;
-            Apply(result, region, selected, connected, query);
+            _context.API.ReQuery();
             return true;
         };
         else if (selected) result.AsyncAction = async _ =>
         {
             await _pia.ConnectAsync();
-            connected = true;
-            Apply(result, region, selected, connected, query);
+            _context.API.ReQuery();
             return true;
         };
         else result.AsyncAction = async _ =>
         {
             await _pia.ConnectAsync(region);
-            connected = true;
-            selected = true;
-            Apply(result, region, selected, connected, query);
+            _context.API.ReQuery();
             return true;
         };
 
