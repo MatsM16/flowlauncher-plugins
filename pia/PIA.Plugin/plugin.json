@@ -1,0 +1,12 @@
+{
+    "ID": "3277474FA5B544E68DB67887233082DF",
+    "ActionKeyword": "pia",
+    "Name": "PIA",
+    "Description": "A PIA plugin for FlowLauncher",
+    "Author": "MatsM16",
+    "Version": "0.0.10",
+    "Language": "csharp",
+    "Website": "https://github.com/MatsM16/flowlauncher-plugins/tree/main/pia",
+    "IcoPath": "Images/pia.png",
+    "ExecuteFileName": "PIA.Plugin.dll"
+}

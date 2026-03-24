@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/pia/">
+    <Project Path="pia/PIA.Plugin/PIA.Plugin.csproj" />
+  </Folder>
+</Solution>
